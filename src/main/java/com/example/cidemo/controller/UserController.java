@@ -17,4 +17,9 @@ public class UserController {
     public String add() {
         return "user added";
     }
+
+    @RequestMapping("del")
+    public String del() {
+        return "user deleted";
+    }
 }
