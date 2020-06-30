@@ -22,4 +22,9 @@ public class UserController {
     public String del() {
         return "user deleted";
     }
+
+    @RequestMapping("query")
+    public String query() {
+        return "user query";
+    }
 }
